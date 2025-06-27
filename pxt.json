@@ -1,0 +1,30 @@
+{
+    "name": "Barco Colegio",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "wuKong": "github:elecfreaks/pxt-wukong#v1.5.8",
+        "pxt-kitronik-move-motor": "github:kitronikltd/pxt-kitronik-move-motor#v0.4.20",
+        "pxt-kitronik-lab-bit": "github:kitronikltd/pxt-kitronik-lab-bit#v0.2.3",
+        "pxt-kitronik-motor-driver": "github:kitronikltd/pxt-kitronik-motor-driver#v0.0.8"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.61",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
